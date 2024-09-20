@@ -1,27 +1,53 @@
-# Sample MERN with Microservices
+# Project Overview
+
+## Description
+
+Orchestrationk8s is a project designed to demonstrate advanced Kubernetes, Helm orchestration techniques and keen usage of boto3. It includes examples of configurations and deployments that enhance the scalability and manageability of containerized applications.
 
 
+## Setup Instructions
 
-For `helloService`, create `.env` file with the content:
-```bash
-PORT=3001
-```
+### Step 1: Environment Setup
 
-For `profileService`, create `.env` file with the content:
-```bash
-PORT=3002
-MONGO_URL="specifyYourMongoURLHereWithDatabaseNameInTheEnd"
-```
+#### Configure Kubernetes
 
-Finally install packages in both the services by running the command `npm install`.
+- Install Kubernetes CLI.
+- Configure your local environment to interact with a Kubernetes cluster.
 
-<br/>
-For frontend, you have to install and start the frontend server:
+### Step 2: Application Preparation
 
-```bash
-cd frontend
-npm install
-npm start
-```
+#### Deployment Scripts
 
-Note: This will run the frontend in the development server. To run in production, build the application by running the command `npm run build`
+- Use provided YAML files to deploy services and deployments on Kubernetes.
+
+### Step 3 to Step 9: (Fill based on specific steps provided in the repo's README or deployment guides)
+
+## Monitoring and Logging
+
+- Utilize Kubernetes integrated monitoring tools and possibly third-party tools like Prometheus.
+
+## Final Validation
+
+- Ensure all services are up and running by checking the Kubernetes dashboard.
+
+## Additional Features
+
+### ChatOps Integration
+
+- (Describe any ChatOps features if applicable)
+
+## Documentation
+
+- Comprehensive documentation is available in the docs directory.
+
+## Maintainers
+
+- [Gani-23](https://github.com/Gani-23)
+
+## Contributing
+
+- See CONTRIBUTING.md for how to propose changes and make pull requests.
+
+## License
+
+- Licensed under the MIT License. See LICENSE file for more details.
