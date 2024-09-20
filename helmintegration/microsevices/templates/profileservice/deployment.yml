@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: profileservice-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: profileservice
+  template:
+    metadata:
+      labels:
+        app: profileservice
+    spec:
+      containers:
+      - name: profileservice
+        image: eagleeye007/pelos
+        ports:
+        - containerPort: 3002
