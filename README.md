@@ -30,12 +30,6 @@ Orchestrationk8s is a project designed to demonstrate advanced Kubernetes, Helm 
 
 - Ensure all services are up and running by checking the Kubernetes dashboard.
 
-## Additional Features
-
-### ChatOps Integration
-
-- (Describe any ChatOps features if applicable)
-
 ## Documentation
 
 - Comprehensive documentation is available in the docs directory.
